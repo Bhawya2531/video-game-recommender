@@ -10,7 +10,7 @@ import requests
 import pandas as pd
 st.set_page_config(page_title="Video Game Recommender", page_icon="🎮", layout="centered")
 
-API_URL = st.sidebar.text_input("API base URL", value="http://localhost:8000")
+API_URL = st.sidebar.text_input("API base URL", value="https://video-game-recommender-p5en.onrender.com")
 
 st.title("🎮 Video Game Recommender")
 st.caption("Latent-factor collaborative filtering (Truncated SVD, k=200) — Amazon Reviews 2018, Video Games")
