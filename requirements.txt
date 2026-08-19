@@ -1,0 +1,11 @@
+# Combined dependencies for backend (FastAPI service) + frontend (Streamlit demo).
+# For isolated installs, use backend/requirements.txt or frontend/requirements.txt instead.
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+numpy==1.26.4
+scipy==1.13.1
+pydantic==2.9.2
+streamlit==1.38.0
+requests==2.32.3
+pandas==2.2.2
